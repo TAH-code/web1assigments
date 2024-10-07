@@ -1,0 +1,154 @@
+html{
+    background-color: rgba(128, 128, 128, 0.125);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.topNav{ /* to style top nav items */
+    display: flex;
+    gap: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+
+.topNav a {
+
+    font-size:larger;
+    font-style:italic;
+    border-radius: 5px;
+    flex:content;
+    padding-inline: 2px;
+    text-decoration: none; 
+    outline-color: transparent;
+    text-align: center;
+    line-height: 2.5;
+    color: black;
+  }
+  
+  .topNav a:link,
+  .topNav a:visited,
+  .topNav a:focus {
+    background: rgba(0, 128, 0, 0.261);
+    color: black;
+  }
+  
+  .topNav a:hover {
+    background: rgba(0, 128, 0, 0.513) ;
+  }
+  
+  .topNav a:active {
+    color: white;
+  }
+
+.aboutsection{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgba(128, 128, 128, 0.135);
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 5px;
+
+}
+
+.pic-name {
+    display: flex; /* to align items in a row */
+    align-items: center; /* Center vertically */
+}
+.mypic {
+    height: auto; 
+    width: 85px; /* Adjust width as needed */
+    border-radius: 100%;
+    border-style:solid;
+    border-width: 1px;
+    margin-right: 10px; /* Space between image and text */
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.myname {
+    text-align: center;
+    font-size: 24px; /* Adjust font size as needed */
+    margin:0px; /* Remove default margin */
+    margin-top: 1%;
+}
+.p-me{
+    font-size: 17px;
+    padding: 2%;
+    margin-top: 2.5%;
+    margin-left: 3%;
+    text-align: center;
+}
+
+
+
+.imghobbies {
+    padding: 2%;
+    margin-top: 2%;    
+    background-color: rgba(128, 128, 128, 0.135);
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.hobbies-word{
+    text-align: left;
+    margin-bottom: 3%;
+}
+  
+.imghobbies img {
+    margin-left: 70px;
+    width: 230px;
+    height: 230px;
+    border-radius: 5px;
+
+}
+.imghobbies:hover img {
+    box-shadow: 0 5px 15px  rgba(0, 128, 0, 0.482); /* Adds a shadow effect */
+
+}
+
+.hobbyform{
+    font-size: large;
+    padding-top: 5%;
+    margin-left: 75%;
+    text-align: center;
+
+}
+.future-s{
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgba(128, 128, 128, 0.135);
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 5px;
+
+}
+.footer{
+    padding: 1%;
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.261);
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.footer a {
+    font-size:larger;
+    font-style:italic;
+    border-radius: 5px;
+    text-decoration: none; 
+    outline-color: transparent;
+    text-align: center;
+    color: black;
+  }
+.footer a:hover {
+    color: whitesmoke;
+}
